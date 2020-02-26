@@ -1,3 +1,6 @@
 body{
 	background: lightblue;
 }
+.nav-link-hover:hover{
+	color: white !important;
+}
