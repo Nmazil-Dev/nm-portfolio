@@ -10,7 +10,8 @@ body{
 
 /* Splash Page Background Image*/
 .splash-bg{
-	background: url(keyboard-background.jpg) no-repeat center center fixed;
+	background: url(chicagosky.jpg) no-repeat center center fixed;
+	padding-bottom: 2.5%;
 }
 
 /* Navbar styling*/
@@ -22,7 +23,7 @@ body{
 }
 .main-nav{
 	border-radius: 25px;
-	background: rgba(255, 255, 255, 0.733);
+	background: rgba(255, 255, 255, 0.836);
 }
 .nav-links{
 	white-space:nowrap;
@@ -37,7 +38,8 @@ body{
 /* Splash Page Styling*/
 #home{
 	margin-top: 5%;
-	padding-bottom: 20%;
+	margin-bottom: 20%;
+	background:rgba(0, 0, 0, 0.705)
 }
 #home hr{
 	border: 1px solid white;
@@ -58,4 +60,29 @@ body{
 }
 .table-top th{
 	border: none;
+}
+
+/* Projects Section */
+#projects{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+/* Parallax Background */
+#parallax{
+	padding-top: 25%;
+	height: 50%;
+	background: url(https://images.pexels.com/photos/220357/pexels-photo-220357.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center center fixed;
+}
+
+/* About Section */
+#about{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+/* Contact Section*/
+#contact{
+	margin-top:10%;
+	margin-bottom: 10%;
 }
