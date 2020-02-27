@@ -50,6 +50,11 @@ body{
 	vertical-align: middle;
 }
 /* Skills Section Styling */
+.scroll-down{
+	color: white;
+	background: rgb(0, 0, 0);
+}
+
 #skills{
 	padding-top:10%;
 	padding-bottom: 10%;
@@ -68,6 +73,14 @@ body{
 	margin-bottom: 5%;
 }
 
+#projects .project-row{
+	margin-top: 5%;
+}
+
+#projects p{
+	margin-left: auto;
+	margin-right: auto;
+}
 /* Parallax Background */
 #parallax{
 	padding-top: 25%;
