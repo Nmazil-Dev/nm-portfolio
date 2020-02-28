@@ -58,7 +58,7 @@ body{
 #skills{
 	padding-top:10%;
 	padding-bottom: 10%;
-	background: lightcoral;
+	background: rgb(231, 159, 111);
 }
 #skills ul li{
 	font-size: 1.3rem;
@@ -72,12 +72,26 @@ body{
 
 /* Projects Section */
 #projects{
-	margin-top: 5%;
-	margin-bottom: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	margin-bottom: .25%;
+	background: rgb(70, 115, 240);
+	color: white;
+}
+.projects{
+	background: rgb(70, 115, 240);
+}
+#projects hr{
+	border: 1px solid white;
 }
 
-#projects .project-row{
-	margin-top: 5%;
+.projects-title{
+	background: rgb(113, 207, 235);
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-top: .25%;
+	margin-bottom: .25%;
+	color: white;
 }
 
 #projects p{
@@ -93,8 +107,17 @@ body{
 
 /* About Section */
 #about{
-	margin-top: 5%;
-	margin-bottom: 5%;
+	margin-top: .25%;
+	margin-bottom: .25%;
+}
+#about hr{
+	border: 1px solid white;
+}
+#about .row{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background: rgb(113, 144, 179);
+	color: white;
 }
 .about-me li{
 	padding-bottom: 20px;
@@ -102,6 +125,17 @@ body{
 
 /* Contact Section*/
 #contact{
-	margin-top:10%;
-	margin-bottom: 10%;
+	margin-bottom: .25%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background: plum;
+}
+.contact-container{
+	background: plum;
+}
+
+/*Footer Section*/
+#footer{
+	padding-top: 3.5%;
+	padding-bottom: 3.5%;
 }
