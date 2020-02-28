@@ -140,7 +140,7 @@ body{
 #parallax{
 	padding-top: 25%;
 	height: 75%;
-	background: url(../images/keyboard.JPG) no-repeat center center fixed;
+	background: url(../images/keyboard.jpg) no-repeat center center fixed;
 }
 @media (min-width: 1200px){
 	#parallax{
