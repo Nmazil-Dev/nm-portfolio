@@ -10,7 +10,7 @@ body{
 
 /* Splash Page Background Image*/
 .splash-bg{
-	background: url(/images/chicagosky.jpg) no-repeat center center fixed;
+	background: url(./images/chicagosky.jpg) no-repeat center center fixed;
 	padding-bottom: 2.5%;
 }
 @media (min-width: 1200px){
@@ -140,7 +140,7 @@ body{
 #parallax{
 	padding-top: 25%;
 	height: 75%;
-	background: url(/images/keyboard.jpg) no-repeat center center fixed;
+	background: url(./images/keyboard.jpg) no-repeat center center fixed;
 }
 @media (min-width: 1200px){
 	#parallax{
