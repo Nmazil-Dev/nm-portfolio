@@ -3,15 +3,20 @@
 	padding: 0px;
 }
 body{
-	background: white;
+	background: #1C1B2A;
 	margin: 0px;
-	color:black;
+	color: black;
 }
 
 /* Splash Page Background Image*/
 .splash-bg{
 	background: url(chicagosky.jpg) no-repeat center center fixed;
 	padding-bottom: 2.5%;
+}
+@media (min-width: 1200px){
+	.splash-bg{
+		background-size: 100%;
+	}
 }
 
 /* Navbar styling*/
@@ -24,7 +29,25 @@ body{
 .main-nav{
 	border-radius: 25px;
 	background: rgba(255, 255, 255, 0.836);
+	width: 40%;
 }
+@media (min-width: 576px){
+	.main-nav{
+		width: 60%;
+	}
+}
+@media (min-width: 992px){
+	.main-nav{
+		width: 45%;
+	}
+}
+@media (min-width: 1200px){
+	.main-nav{
+		width: 35%;
+	}
+}
+
+
 .nav-links{
 	white-space:nowrap;
 }
@@ -38,7 +61,7 @@ body{
 /* Splash Page Styling*/
 #home{
 	margin-top: 5%;
-	margin-bottom: 21%;
+	margin-bottom: 28%;
 	background:rgba(0, 0, 0, 0.863)
 }
 #home hr{
@@ -58,7 +81,10 @@ body{
 #skills{
 	padding-top:10%;
 	padding-bottom: 10%;
-	background: lightcoral;
+	background: rgb(129, 214, 240);
+}
+#skills ul li{
+	font-size: 1.3rem;
 }
 .test{
 	border-radius: 5px;
@@ -69,14 +95,43 @@ body{
 
 /* Projects Section */
 #projects{
-	margin-top: 5%;
-	margin-bottom: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background: #181712;
+	color: white;
+}
+.projects{
+	background: #181712;
 }
 
-#projects .project-row{
-	margin-top: 5%;
+.projects-title{
+	background: #181712;
+	padding-top: 2%;
+	padding-bottom: .5%;
+	color: white;
+}
+.projects-bottom{
+	height: .5%;
+	background: #72A8D6;
 }
 
+.weeklyjams-col{
+	background: rgb(17, 98, 190);
+	border-radius: 10px;
+	padding-top: 20px;
+}
+.mylibly-col{
+	background: rgb(204, 91, 83);
+	border-radius: 10px;
+	padding-top: 20px;
+	color: whte;
+}
+.github-col{
+	background: black;
+	border-radius: 10px;
+	padding-top: 20px;
+	color:white;
+}
 #projects p{
 	margin-left: auto;
 	margin-right: auto;
@@ -84,22 +139,62 @@ body{
 /* Parallax Background */
 #parallax{
 	padding-top: 25%;
-	height: 50%;
+	height: 75%;
 	background: url(https://images.pexels.com/photos/220357/pexels-photo-220357.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center center fixed;
 }
+@media (min-width: 1200px){
+	#parallax{
+		background-size: 100%;
+	}
+}
+
 
 /* About Section */
-#about{
-	margin-top: 5%;
-	margin-bottom: 5%;
+#about hr{
+	border: 1px solid white;
 }
+#about .row{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background: #181712;
+	color: white;
+}
+.why-code-col{
+	border: 2px solid White;
+	padding: 10px;
+	border-radius: 10px;
+}
+
 .about-me li{
-	text-align: justify;
 	padding-bottom: 20px;
 }
 
 /* Contact Section*/
 #contact{
-	margin-top:10%;
-	margin-bottom: 10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background: rgb(129, 214, 240);
+	color: black;
+}
+.contact-container{
+	background: rgb(129, 214, 240);
+}
+
+.email-text{
+	color: white;
+	background: rgb(17, 98, 190);
+	width: 20%;
+	border-radius: 25px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+/*Footer Section*/
+#footer{
+	background: #181712;
+	padding-top: 3.5%;
+	padding-bottom: 3.5%;
+}
+#footer .btn-outline-dark:hover{
+	background: rgb(17, 98, 190) !important;
+	border: 1px solid white;
 }
