@@ -106,8 +106,8 @@ body{
 
 .projects-title{
 	background: #181712;
-	padding-top: 1%;
-	padding-bottom: 1%;
+	padding-top: 2%;
+	padding-bottom: .5%;
 	color: white;
 }
 .projects-bottom{
@@ -121,7 +121,7 @@ body{
 	padding-top: 20px;
 }
 .mylibly-col{
-	background: rgb(83, 186, 204);
+	background: rgb(204, 91, 83);
 	border-radius: 10px;
 	padding-top: 20px;
 	color: whte;
@@ -139,7 +139,7 @@ body{
 /* Parallax Background */
 #parallax{
 	padding-top: 25%;
-	height: 50%;
+	height: 75%;
 	background: url(https://images.pexels.com/photos/220357/pexels-photo-220357.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center center fixed;
 }
 @media (min-width: 1200px){
@@ -171,16 +171,14 @@ body{
 
 /* Contact Section*/
 #contact{
-	margin-bottom: .25%;
 	padding-top: 5%;
 	padding-bottom: 5%;
-	background: rgb(17, 98, 190);
-	color: white;
+	background: rgb(129, 214, 240);
+	color: black;
 }
 .contact-container{
-	background: rgb(231, 190, 143);
+	background: rgb(129, 214, 240);
 }
-
 /*Footer Section*/
 #footer{
 	background: #181712;
