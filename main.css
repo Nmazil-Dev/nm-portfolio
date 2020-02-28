@@ -13,6 +13,11 @@ body{
 	background: url(chicagosky.jpg) no-repeat center center fixed;
 	padding-bottom: 2.5%;
 }
+@media (min-width: 1200px){
+	.splash-bg{
+		background-size: 100%;
+	}
+}
 
 /* Navbar styling*/
 .toggler{
@@ -24,7 +29,25 @@ body{
 .main-nav{
 	border-radius: 25px;
 	background: rgba(255, 255, 255, 0.836);
+	width: 40%;
 }
+@media (min-width: 576px){
+	.main-nav{
+		width: 60%;
+	}
+}
+@media (min-width: 992px){
+	.main-nav{
+		width: 45%;
+	}
+}
+@media (min-width: 1200px){
+	.main-nav{
+		width: 35%;
+	}
+}
+
+
 .nav-links{
 	white-space:nowrap;
 }
@@ -90,10 +113,29 @@ body{
 	padding-top: 1%;
 	padding-bottom: 1%;
 	margin-top: .25%;
-	margin-bottom: .25%;
+
 	color: white;
 }
-
+.weeklyjams-col{
+	background:black;
+	border-radius: 10px;
+	padding-top: 20px;
+	border: 3px solid white;
+}
+.mylibly-col{
+	background: rgb(152, 177, 201);
+	border-radius: 10px;
+	padding-top: 20px;
+	color:black;
+	border: 3px solid white;
+}
+.github-col{
+	background: rgb(142, 136, 233);
+	border-radius: 10px;
+	padding-top: 20px;
+	color:black;
+	border: 3px solid white;
+}
 #projects p{
 	margin-left: auto;
 	margin-right: auto;
@@ -104,6 +146,12 @@ body{
 	height: 50%;
 	background: url(https://images.pexels.com/photos/220357/pexels-photo-220357.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat center center fixed;
 }
+@media (min-width: 1200px){
+	#parallax{
+		background-size: 100%;
+	}
+}
+
 
 /* About Section */
 #about{
@@ -119,6 +167,12 @@ body{
 	background: rgb(113, 144, 179);
 	color: white;
 }
+.why-code-col{
+	border: 2px solid White;
+	padding: 10px;
+	border-radius: 10px;
+}
+
 .about-me li{
 	padding-bottom: 20px;
 }
