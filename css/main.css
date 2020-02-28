@@ -15,9 +15,6 @@ body{
 .splash-bg{
 	background: url(../images/chicagosky.jpg) no-repeat center center fixed;
 	padding-bottom: 2.5%;
-	-o-background-size: contain;
-    -moz-background-size: contain;
-    -webkit-background-size:contain;
 }
 @media (min-width: 1200px){
 	.splash-bg{
@@ -147,9 +144,6 @@ body{
 	padding-top: 25%;
 	height: 75%;
 	background: url(../images/keyboard.jpg) no-repeat center center fixed;
-	-o-background-size: contain;
-    -moz-background-size: contain;
-    -webkit-background-size: contain;
 }
 @media (min-width: 1200px){
 	#parallax{
