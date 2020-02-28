@@ -183,10 +183,21 @@ body{
 .email-text{
 	color: white;
 	background: rgb(17, 98, 190);
-	width: 20%;
 	border-radius: 25px;
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+@media (min-width: 576px){
+	.email-text{
+		margin-left: 20%;
+		margin-right: 20%;
+		}
+}
+@media (min-width: 1200px){
+	.email-text{
+		margin-left: 35%;
+		margin-right: 35%;
+	}
 }
 /*Footer Section*/
 #footer{
