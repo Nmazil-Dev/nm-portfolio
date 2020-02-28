@@ -179,9 +179,22 @@ body{
 .contact-container{
 	background: rgb(129, 214, 240);
 }
+
+.email-text{
+	color: white;
+	background: rgb(17, 98, 190);
+	width: 20%;
+	border-radius: 25px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 /*Footer Section*/
 #footer{
 	background: #181712;
 	padding-top: 3.5%;
 	padding-bottom: 3.5%;
+}
+#footer .btn-outline-dark:hover{
+	background: rgb(17, 98, 190) !important;
+	border: 1px solid white;
 }
