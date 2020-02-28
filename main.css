@@ -38,8 +38,8 @@ body{
 /* Splash Page Styling*/
 #home{
 	margin-top: 5%;
-	margin-bottom: 20%;
-	background:rgba(0, 0, 0, 0.705)
+	margin-bottom: 21%;
+	background:rgba(0, 0, 0, 0.863)
 }
 #home hr{
 	border: 1px solid white;
@@ -92,6 +92,10 @@ body{
 #about{
 	margin-top: 5%;
 	margin-bottom: 5%;
+}
+.about-me li{
+	text-align: justify;
+	padding-bottom: 20px;
 }
 
 /* Contact Section*/
